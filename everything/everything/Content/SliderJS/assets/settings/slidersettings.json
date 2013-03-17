@@ -1,0 +1,452 @@
+{
+	"generateSliderPath": true,
+	"sliderPath": "",
+	"scriptPath": "SliderJSScript.php",
+	"anchorsPath": "assets/anchors/",
+	"arrowsPath": "assets/arrows/",
+	"generalPath": "assets/general/",
+	"settingsPath": "assets/settings/",
+	"slidesPath": "assets/slides/",
+	"carousel": true,
+	"timer": "5000",
+	"autoStartRotation": false,
+	"autoStopRotation": false,
+	"autoPauseRotation": false,
+	"bindArrowKeysEvents": true,
+	"bindScrollingEvents": true,
+	"bindTouchEvents": true,
+	"mobileTransitionEffect": "usethesame",
+	"sliderContainerStyle": {},
+	"top": "0",
+	"left": "8",
+	"width": "936",
+	"height": "432",
+	"fitMode": "bestfit",
+	"defaultTransitionEffect": "slidedown",
+	"effectsSlicesX": "4",
+	"effectsSlicesY": "4",
+	"effectsBoxesX": "4",
+	"effectsBoxesY": "4",
+	"slidesContainerStyle": {
+		"border-top-width": "3px",
+		"border-top-style": "solid",
+		"border-top-color": "#fff",
+		"border-right-width": "3px",
+		"border-right-style": "solid",
+		"border-right-color": "#fff",
+		"border-bottom-width": "3px",
+		"border-bottom-style": "solid",
+		"border-bottom-color": "#fff",
+		"border-left-width": "3px",
+		"border-left-style": "solid",
+		"border-left-color": "#fff",
+		"padding-top": "0px",
+		"padding-right": "0px",
+		"padding-bottom": "0px",
+		"padding-left": "0px",
+		"background-color": "#ffffff",
+		"-webkit-box-shadow": "0px 0px 0px 1px #b4b4b4",
+		"box-shadow": "0px 0px 0px 1px #b4b4b4",
+		"margin-top": "1px",
+		"margin-right": "1px",
+		"margin-bottom": "1px",
+		"margin-left": "1px"
+	},
+	"slideZIndexBase": "10",
+	"slidesData": [
+		{
+			"visible": true,
+			"type": "image",
+			"src": "01.jpg",
+			"thumbSrc": "01thumb.jpg",
+			"transitionEffect": "slideup",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Real Time - In Page Editing",
+			"description": "Make live changes to your SliderJS directly on your page. No more sequence errors as you can now have a clear understanding of the impact the changes you make have on your website. Simply customize, save and publish."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "02.jpg",
+			"thumbSrc": "02thumb.jpg",
+			"transitionEffect": "slidedown",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Faster File Management",
+			"description": "Forget about webmaster assistance and FTP server connections. With the integrated file manager you can edit your slides directly from the admin panel thus making uploading or deleting images faster, easier and friendlier."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "03.jpg",
+			"thumbSrc": "03thumb.jpg",
+			"transitionEffect": "slideright",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Reliable Customer Support",
+			"description": "A team of dedicated professionals is here to help you at all time. You can rest assured that every time you request assistance through live chat or email a support specialist will always deliver a quick and helpful reply."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "04.jpg",
+			"thumbSrc": "04thumb.jpg",
+			"transitionEffect": "slideleft",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Great for Mobile Devices",
+			"description": "SliderJS was built to deliver the best possible experience on mobile devices. Subsequent to rigorous optimization and performance tests it has proven great performance on both Apple iOS and Android powered smartphones and tablets."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "05.jpg",
+			"thumbSrc": "05thumb.jpg",
+			"transitionEffect": "boxes-faderandom",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Unlimited Customization",
+			"description": "Imagination is the limit when it comes to customizing the SliderJS. Everything is geditable from effects and transitions to the very interface and with over 100 editable properties, advanced css editor and custom fonts, it accredits unlimited variety."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "06.jpg",
+			"thumbSrc": "06thumb.jpg",
+			"transitionEffect": "slices-horizontal-fadefrombottom",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Easy Wordpress Integration",
+			"description": "Integrate and manage your sliders directly from WordPress. Showcase your content in seconds in any of your posts or pages using the SliderJS plugin and keep up with the latest improvements via the automatic update system."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "07.jpg",
+			"thumbSrc": "07thumb.jpg",
+			"transitionEffect": "slices-vertical-faderandom",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Touch & Keyboard",
+			"description": "Browsing the slides using swipe gestures and keyboard arrow keys is easy and intuitive."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "08.jpg",
+			"thumbSrc": "08thumb.jpg",
+			"transitionEffect": "boxes-fade",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Shortcodes",
+			"description": "Embedding sliders into your WordPress template is as simple as pasting short designated tags."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "09.jpg",
+			"thumbSrc": "09thumb.jpg",
+			"transitionEffect": "scrollup",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Custom Fonts",
+			"description": "Font-Face and Google API fonts will help you keep up with the latest design trends."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "10.jpg",
+			"thumbSrc": "10thumb.jpg",
+			"transitionEffect": "scrolldown",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "Admin Security",
+			"description": "Being password protected, your admin panel is safe from ill-intended people and software."
+		},
+		{
+			"visible": true,
+			"type": "image",
+			"src": "11.jpg",
+			"thumbSrc": "11thumb.jpg",
+			"transitionEffect": "scrollhorizontal",
+			"transitionEffectDuration": "1500ms",
+			"url": "",
+			"title": "HTML Captions",
+			"description": "Styling and setting up active links in your captions is easy with the help of html tags."
+		}
+	],
+	"thumbnailsNavigationComponent": {
+		"available": true,
+		"availability": "always",
+		"orientation": "horizontal",
+		"relativeToSlides": false,
+		"relativeToSlidesVertical": "bottom",
+		"relativeToSlidesHorizontal": "left",
+		"top": "425",
+		"left": "40",
+		"width": "880",
+		"height": "0",
+		"style": {},
+		"stageDisplayHideEffect": "slidedown",
+		"stageDisplayHideEffectDuration": 500,
+		"thumbnail": {
+			"width": "138",
+			"height": "74",
+			"style": {
+				"border-top-width": "1px",
+				"border-top-style": "solid",
+				"border-top-color": "#e1e1e1",
+				"border-right-width": "1px",
+				"border-right-style": "solid",
+				"border-right-color": "#e1e1e1",
+				"border-bottom-width": "1px",
+				"border-bottom-style": "solid",
+				"border-bottom-color": "#e1e1e1",
+				"border-left-width": "1px",
+				"border-left-style": "solid",
+				"border-left-color": "#e1e1e1",
+				"padding-top": "3px",
+				"padding-right": "3px",
+				"padding-bottom": "3px",
+				"padding-left": "3px",
+				"background-color": "#ffffff",
+				"margin-left": "15px",
+				"margin-bottom": "20px",
+				"margin-right": "15px",
+				"margin-top": "45px"
+			},
+			"hoverStyle": {
+				"border-top-width": "1px",
+				"border-top-style": "solid",
+				"border-top-color": "#b4b4b4",
+				"border-right-width": "1px",
+				"border-right-style": "solid",
+				"border-right-color": "#b4b4b4",
+				"border-bottom-width": "1px",
+				"border-bottom-style": "solid",
+				"border-bottom-color": "#b4b4b4",
+				"border-left-width": "1px",
+				"border-left-style": "solid",
+				"border-left-color": "#b4b4b4",
+				"padding-top": "3px",
+				"padding-right": "3px",
+				"padding-bottom": "3px",
+				"padding-left": "3px"
+			},
+			"selectedStyle": {
+				"border-top-width": "1px",
+				"border-top-style": "solid",
+				"border-top-color": "#b4b4b4",
+				"border-right-width": "1px",
+				"border-right-style": "solid",
+				"border-right-color": "#b4b4b4",
+				"border-bottom-width": "1px",
+				"border-bottom-style": "solid",
+				"border-bottom-color": "#b4b4b4",
+				"border-left-width": "1px",
+				"border-left-style": "solid",
+				"border-left-color": "#b4b4b4",
+				"padding-top": "3px",
+				"padding-right": "3px",
+				"padding-bottom": "3px",
+				"padding-left": "3px"
+			},
+			"animateStyles": true,
+			"animateStyleDuration": "500"
+		}
+	},
+	"arrowsNavigationComponent": {
+		"available": true,
+		"availability": "always",
+		"orientation": "horizontal",
+		"relativeToSlides": false,
+		"relativeToSlidesVertical": "center",
+		"relativeToSlidesHorizontal": "center",
+		"top": "195",
+		"left": "-9",
+		"width": "969",
+		"height": "0",
+		"whenArrowUnavailable": "hide",
+		"style": {},
+		"stageDisplayHideEffect": "fade",
+		"stageDisplayHideEffectDuration": 500,
+		"arrowHoverEffect": "image",
+		"arrowHoverEffectDuration": 500,
+		"prevArrow": {
+			"hitarea": {
+				"width": "50",
+				"height": "58",
+				"style": {
+					"opacity": "1",
+					"margin-top": "5px",
+					"margin-right": "5px",
+					"margin-bottom": "5px",
+					"margin-left": "5px"
+				},
+				"hoverStyle": {},
+				"disabledStyle": {
+					"opacity": "0.5"
+				}
+			},
+			"arrow": {
+				"available": true,
+				"imageSrc": "left.png",
+				"imageHoverSrc": "leftOver.png",
+				"width": "50",
+				"height": "58",
+				"style": {
+					"opacity": "1",
+					"margin-top": "5px",
+					"margin-right": "5px",
+					"margin-bottom": "5px",
+					"margin-left": "5px"
+				},
+				"hoverStyle": {},
+				"disabledStyle": {
+					"opacity": "0.5"
+				}
+			}
+		},
+		"nextArrow": {
+			"hitarea": {
+				"width": "50",
+				"height": "58",
+				"style": {
+					"opacity": "1",
+					"margin-top": "5px",
+					"margin-right": "5px",
+					"margin-bottom": "5px",
+					"margin-left": "5px"
+				},
+				"hoverStyle": {},
+				"disabledStyle": {
+					"opacity": "0.5"
+				}
+			},
+			"arrow": {
+				"available": true,
+				"imageSrc": "right.png",
+				"imageHoverSrc": "rightOver.png",
+				"width": "50",
+				"height": "58",
+				"style": {
+					"opacity": "1",
+					"margin-top": "5px",
+					"margin-right": "5px",
+					"margin-bottom": "5px",
+					"margin-left": "5px"
+				},
+				"hoverStyle": {},
+				"disabledStyle": {
+					"opacity": "0.5"
+				}
+			}
+		}
+	},
+	"anchorsNavigationComponent": {
+		"available": false,
+		"availability": "always",
+		"orientation": "horizontal",
+		"relativeToSlides": true,
+		"relativeToSlidesVertical": "top",
+		"relativeToSlidesHorizontal": "center",
+		"top": "300",
+		"left": "0",
+		"width": "0",
+		"height": "0",
+		"style": {
+			"background-image": "url('bkg.png')",
+			"background-position": "left top",
+			"background-repeat": "repeat"
+		},
+		"stageDisplayHideEffect": "slidedown",
+		"stageDisplayHideEffectDuration": 500,
+		"anchor": {
+			"anchorImageNormalSrc": "anchor-normal.png",
+			"anchorImageHoverSrc": "anchor-hover.png",
+			"anchorImageSelectedSrc": "anchor-selected.png",
+			"width": "13",
+			"height": "12",
+			"style": {
+				"margin-top": "5px",
+				"margin-right": "5px",
+				"margin-bottom": "5px",
+				"margin-left": "5px"
+			},
+			"hoverStyle": {},
+			"selectedStyle": {},
+			"animateStyles": true,
+			"animateStyleDuration": 500
+		}
+	},
+	"slideInfoComponent": {
+		"available": true,
+		"top": "290",
+		"left": "55",
+		"width": "680",
+		"height": "126",
+		"style": {
+			"color": "#ffffff"
+		},
+		"hoverStyle": {},
+		"animateStyles": true,
+		"animateStyleDuration": 500,
+		"stageDisplayHideEffect": "slideup",
+		"stageDisplayHideEffectDuration": 500,
+		"slideInfoTitle": {
+			"width": "680",
+			"height": "40",
+			"fontFamily": "\"Verdana\", \"Verdana\", \"Geneva\", sans-serif",
+			"fontSize": "40",
+			"fontColor": "#666475",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontVariant": "normal",
+			"linksStyle": {},
+			"linksHoverStyle": {},
+			"style": {
+				"height": "auto",
+				"background-color": "#ffffff",
+				"display": "inline",
+				"line-height": "50px",
+				"padding-left": "14px",
+				"padding-right": "14px",
+				"font-family": "'Yanone Kaffeesatz'"
+			},
+			"hoverStyle": {
+				"height": "auto"
+			},
+			"animateStyles": true,
+			"animateStyleDuration": 500
+		},
+		"slideInfoDescription": {
+			"width": "670",
+			"height": "65",
+			"fontFamily": "\"Arial\", \"Arial\", \"Helvetica\", sans-serif",
+			"fontSize": "15",
+			"fontColor": "#848484",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontVariant": "normal",
+			"linksStyle": {},
+			"linksHoverStyle": {},
+			"style": {
+				"height": "auto",
+				"background-color": "#ffffff",
+				"margin-top": "0px",
+				"padding-bottom": "10px",
+				"line-height": "20px",
+				"padding-left": "14px",
+				"padding-right": "14px",
+				"padding-top": "10px"
+			},
+			"hoverStyle": {
+				"height": "auto"
+			},
+			"animateStyles": true,
+			"animateStyleDuration": 500
+		}
+	},
+	"disabled": false
+}

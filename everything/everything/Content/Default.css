@@ -1,0 +1,312 @@
+﻿body {
+    
+    background-color: white;
+    background-image: url("/Content/images/bottoom_bg.png"), url("/Content/images/top_bg.jpg");
+    background-position: center bottom, center top;
+    background-repeat: repeat-x;
+    color:#3D3B3A;
+    font: 12px/18px Verdana,Tahoma,Arial,sans-serif;
+    margin: 0;
+}
+
+#wrapper {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#innerHeader {
+    border-radius: 0 0 15px 15px;
+    width: 98%;
+    height: 125px;
+    background: #54514E;/*#5E0404;*/
+    margin: 0 auto;
+}
+
+#logo {
+    padding-top: 10px;
+    float: left;
+    padding-left: 40px;
+    border: 0;
+}
+
+#logo_text {
+    margin-top: 0;
+    float: left;
+    padding-top: 20px;
+    border: 0;
+}
+
+#header {
+    width: 98%;
+    height: 138px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background: rgba(0,0,0,0.09); /*url("/Content/images/black_glass.png") repeat scroll 0 0 transparent;*/
+    border-radius: 0 0 15px 15px;
+}
+
+#innerHeader a{ color: white;}
+
+.block {
+    background: rgba(0,0,0,0.09); /*url("/Content/images/black_glass.png") repeat scroll 0 0 transparent;*/
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.innerblock {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.blocktop {
+    background: url("/Content/images/box-header.png");
+    height: 42px;
+}
+
+.blocktop h3 {
+    padding-top: 10px;
+    margin: 0 0 0 0;
+    color: whitesmoke;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.roundBox {
+    border-radius: 15px 15px 15px 15px;
+}
+
+#menumarg {
+    margin: 0 auto;
+    width: 98%;
+    height: 48px;
+    background: url("/Content/images/nenu_top_bg.png") repeat-x scroll 0 0 #D80C16;
+    border:solid 0 black;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0 15px 0 15px;
+}
+
+.topmenu {
+    margin: 0 auto;
+    width: 98%;
+    height: 48px;
+    background: url("/Content/images/nenu_top_bg.png") repeat-x scroll 0 0 #D80C16;
+    border:solid 0 black;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.topmenu ul li{
+    float: left;
+    width: 80px;
+    height: 27px;
+    margin: 0 4px 0 0;
+    padding: 12px 0 5px 0;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.topmenu ul li ul{
+	display:none;
+    padding: 18px 0 0 0;
+}
+
+.topmenu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.topmenu ul li ul li{
+    width: 100px;
+    margin: 0;
+    padding: 0 15px 0 15px;
+	background: rgba(255,255,255,0.7);
+    position: relative;
+    z-index: 100;
+}
+
+.topmenu ul li ul li a {
+    color: black;
+}
+
+.active{
+display: block;
+}
+
+/*.cssmenu ul{
+    margin: 1px 0 0 0;
+    float: left;
+}
+
+cssmenu ul li {
+    float: left;
+    width: 80px;
+    height: 27px;
+    margin: 0 4px 0 0;
+    padding: 12px 0 5px 0;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.cssmenu ul li a {
+    color: whitesmoke;
+    border: 0 none;
+}
+
+.cssmenu ul a li:hover {
+    color: red;
+    background: #A2C437;
+}*/
+
+#Settings {
+    float: right;
+    overflow: visible;
+    position: relative;
+    margin: 9px 18px 5px 15px;
+    background: url("/Content/Images/settings.png");
+    width: 29px;
+    height: 29px;
+
+}
+
+#wrapper #menumarg a #imgSettings{
+        border: solid 0 black;
+}
+
+.cssMenuButton {
+    border: 0;
+}
+
+.float-left 
+{
+    float: left;
+}
+
+.float-right 
+{
+    float: right;
+}
+
+hr {
+    color: white;
+}
+
+#srchb {
+/*-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00965c', endColorstr = '#fffdfc');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00965c', endColorstr = '#fffdfc')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+    margin: 11px 30px 0 0;
+    padding: 0 0 0 0;
+    float: right;
+}
+
+#login_partial {
+    margin: 0 20px 0 0;
+    padding: 0 0 0 0;
+    float: right;
+}
+
+#container {
+    display:block;
+    width: 98%;
+    min-height: 750px;
+    /*background-color: rgba(250,250,250,0.5);*/
+    margin: 0 auto;
+    /*border: dotted 1px black;*/
+}
+
+#sideleft {
+    float: left;
+    width: 240px;
+    margin: 0 25px 0 0;
+}
+
+#sideright {
+    float: right;
+    width: 240px;
+    margin: 0 0 0 25px;
+}
+
+#content {
+    overflow:hidden;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*.date {
+    display: block;
+    background: #4D4946;
+    color: white;
+    width: 80px;
+    padding: 2px 5px 2px 5px;
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;
+}*/
+
+.ContentBlocktop {
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.ContentBlocktop h3 {
+    color: black;
+    font-size: 1.4em;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#HidenBackButton a {
+    color: #54514e;
+    
+}
+
+.ContentBlocktop #HidenBackButton {
+    display: block;
+    padding: 2px 15px 2px 15px;
+    background-color: #A2C437;
+    float: right;
+    border-radius: 25px 5px 25px 3px;
+}
+
+#footer {
+    position:static; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 1px 5px 1px 5px; /* Поля вокруг текста */
+    margin: 0 auto;
+    background: rgba(100,100,100,0.9); /* Цвет фона */
+    color: black; /* Цвет текста */
+    width: 99%; /* Ширина слоя */
+}
