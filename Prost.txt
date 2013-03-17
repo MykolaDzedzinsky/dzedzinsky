@@ -1,0 +1,37 @@
+int Prost (int size, double **A, double *F, double *X, double eps)
+{
+  int iter = 0;
+        double * TempX = new double[size];
+        double norm;
+        do {
+                for (int i = 0; i < size; i++)
+    {
+                        TempX[i] =X[i]+F[i];
+      for (int j = 0; j < size; j++)
+      {                               
+         TempX[i] += -A[i][j] * X[j];
+      }
+    }
+                norm = fabs(X[0] - TempX[0]);
+                for (int h = 0; h < size; h++)
+    {
+                        if (fabs(X[h] - TempX[h]) > norm)
+                                norm = fabs(X[h] - TempX[h]);
+                        X[h] = TempX[h];
+                }
+    iter ++;
+        } while (norm > eps);
+
+  for (int i = 0; i < size; i++) 
+  {
+   double k = 0;
+            for (int j = 0; j < size; j++) 
+   {
+    k+= A[i][j]*X[j];
+            }
+   F[i] = k - F[i];
+        }
+
+        delete[] TempX;
+  return iter;
+}
