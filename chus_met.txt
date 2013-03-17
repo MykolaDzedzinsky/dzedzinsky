@@ -1,0 +1,143 @@
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+#include <fstream>
+using namespace std;
+
+/* функц≥€ (метод якоб≥) 
+ size - розм≥рн≥сть матриц≥ коеф≥ц≥Їнт≥в
+ A - матриц€ коеф≥ц≥Їнт≥в
+ F - вектор в≥льних член≥в
+ X - вектор початкових наближень
+ exactitude - точн≥сть розв'€зк≥в
+ norm - норма (найб≥льша р≥зниц€ значень вектора X сус≥дн≥х ≥терац≥й)
+ TempX - додатковий вектор*
+ –езультат записуЇтьс€ у вектор X
+ ¬ектор нев'€зки записуЇтьс€ у вектор F*/
+
+int Jacobi (int size, double **A, double *F, double *X, double eps)
+{
+  int iter = 0;
+        double * TempX = new double[size];
+        double norm;
+        do {
+                for (int i = 0; i < size; i++) {
+                        TempX[i] =- F[i]
+                        for (int g = 0; g < size; g++) {
+                                if (i != g)
+                                        TempX[i] += A[i][g] * X[g];
+                        }
+                        TempX[i] /= -A[i][i];
+                }
+                norm = fabs(X[0] - TempX[0]);
+                for (int h = 0; h < size; h++) {
+                        if (fabs(X[h] - TempX[h]) > norm)
+                                norm = fabs(X[h] - TempX[h]);
+                        X[h] = TempX[h];
+      
+                }
+    iter ++;
+        } while (norm > eps);
+
+  for (int i = 0; i < size; i++) 
+  {
+   double k = 0;
+            for (int g = 0; g < size; g++) 
+   {
+    k+= A[i][g]*X[g];
+            }
+   F[i] = k - F[i];
+        }
+
+        delete[] TempX;
+  return iter;
+}
+
+int  main()
+{ 
+ char * temp_string = new char[100]; //масив дл€ зчитуванн€ р≥вн€нь
+ int total_count_equation;
+ int count_equation = 0; //л≥чильник введених р≥вн€нь
+ ifstream in_file; //потоковий вказ≥вник на файл
+
+ cout << " Insert file fo coefficients\n -> ";
+ cin >> temp_string;
+ in_file.open(temp_string); //в≥дкрити файл з граматикою
+ if (in_file == NULL) //перев≥рка на коректн≥сть в≥дкритт€ файла
+ {
+  cout<<" Adress file of grammar non correct !";
+ }else
+ {
+  cout<<" Open is successful\n";
+  int quant;
+  in_file >> quant;
+  if (quant>0)
+  {
+   double ** A;
+   A = new double *[quant];
+   for (int i=0; i<quant; i++)
+    A[i]=new double [quant];
+
+   for (int i = 1; i<= quant; i++)
+   {
+    for (int j = 1; j<=quant; j++)
+    {
+     in_file >> A[i-1][j-1];
+    }
+   }
+
+   double * F = new double [quant];
+   for (int i = 1; i<=quant; i++)
+   {
+    in_file >> F[i-1];
+   }
+
+   double * X = new double [quant];
+   for (int i = 1; i<=quant; i++)
+   {
+    in_file >> X[i-1];
+   }
+   double eps;
+   cout << "\n Exactitude = ";
+   cin >> eps;
+
+   cout << "\n System:\n\n";
+   for (int i = 1; i<= quant; i++)
+   {
+    cout << "  ";
+    for (int j = 1; j<=quant; j++)
+    {
+     if (A[i-1][j-1] >= 0)
+      cout << "+";
+     cout << A[i-1][j-1];
+     cout << " * X" << j <<" ";
+    }
+    cout << " = " << F[i-1];
+    cout <<"\n";
+   }
+
+   cout << "\n Vector of approximations:\n\n ";
+   cout << " (";
+    for (int i=0; i<quant-1; i++)
+     cout << X[i] << ", ";
+    cout << X[quant-1] << ")";
+
+   cout << "\n\n ---------------------\n Result:\n\n";
+   int iter = Jacobi(quant,A,F,X,eps);
+   for (int i=1; i<= quant; i++)
+    cout<< "     X" << i << " = " << X[i-1] << "\n";
+   cout << "\n\n Vector of no tied:\n";
+   cout << " (";
+    for (int i=0; i<quant-1; i++)
+     cout << F[i] << ", ";
+    cout << F[quant-1] << ")";
+
+   cout << "\n\nCount of iteration is " << iter;
+ }else
+ {
+  cout << "\n  Error: quantity of unknowns is no correct !";
+ }
+ }
+ _getch();
+ return 0;
+}
