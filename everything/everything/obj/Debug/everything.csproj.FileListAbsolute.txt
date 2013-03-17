@@ -1,0 +1,147 @@
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\everything.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\everything.pdb
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Antlr3.Runtime.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.AspNet.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.Core.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OAuth.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OpenId.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\EntityFramework.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Microsoft.Web.Infrastructure.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Newtonsoft.Json.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Net.Http.Formatting.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Helpers.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Http.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Http.WebHost.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Mvc.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Optimization.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Razor.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.Deployment.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.Razor.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\WebGrease.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\WebMatrix.Data.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\WebMatrix.WebData.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\EntityFramework.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Newtonsoft.Json.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Net.Http.Formatting.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Helpers.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Http.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Http.WebHost.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Mvc.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.Razor.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.Deployment.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\System.Web.WebPages.Razor.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\WebMatrix.Data.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\WebMatrix.WebData.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.AspNet.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.Core.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OAuth.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OpenId.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\obj\Debug\everything.csprojResolveAssemblyReference.cache
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\obj\Debug\everything.dll
+D:\Study\Projects\Visual Studio 2012\Projects\everything\everything\obj\Debug\everything.pdb
+E:\Програмування\everything\everything\bin\everything.dll
+E:\Програмування\everything\everything\bin\everything.pdb
+E:\Програмування\everything\everything\bin\Antlr3.Runtime.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.AspNet.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.Core.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OAuth.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OpenId.dll
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Програмування\everything\everything\bin\EntityFramework.dll
+E:\Програмування\everything\everything\bin\Microsoft.Web.Infrastructure.dll
+E:\Програмування\everything\everything\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Програмування\everything\everything\bin\Newtonsoft.Json.dll
+E:\Програмування\everything\everything\bin\System.Net.Http.Formatting.dll
+E:\Програмування\everything\everything\bin\System.Web.Helpers.dll
+E:\Програмування\everything\everything\bin\System.Web.Http.dll
+E:\Програмування\everything\everything\bin\System.Web.Http.WebHost.dll
+E:\Програмування\everything\everything\bin\System.Web.Mvc.dll
+E:\Програмування\everything\everything\bin\System.Web.Optimization.dll
+E:\Програмування\everything\everything\bin\System.Web.Razor.dll
+E:\Програмування\everything\everything\bin\System.Web.WebPages.Deployment.dll
+E:\Програмування\everything\everything\bin\System.Web.WebPages.dll
+E:\Програмування\everything\everything\bin\System.Web.WebPages.Razor.dll
+E:\Програмування\everything\everything\bin\WebGrease.dll
+E:\Програмування\everything\everything\bin\WebMatrix.Data.dll
+E:\Програмування\everything\everything\bin\WebMatrix.WebData.dll
+E:\Програмування\everything\everything\bin\EntityFramework.xml
+E:\Програмування\everything\everything\bin\Newtonsoft.Json.xml
+E:\Програмування\everything\everything\bin\System.Net.Http.Formatting.xml
+E:\Програмування\everything\everything\bin\System.Web.Helpers.xml
+E:\Програмування\everything\everything\bin\System.Web.Http.xml
+E:\Програмування\everything\everything\bin\System.Web.Http.WebHost.xml
+E:\Програмування\everything\everything\bin\System.Web.Mvc.xml
+E:\Програмування\everything\everything\bin\System.Web.Razor.xml
+E:\Програмування\everything\everything\bin\System.Web.WebPages.xml
+E:\Програмування\everything\everything\bin\System.Web.WebPages.Deployment.xml
+E:\Програмування\everything\everything\bin\System.Web.WebPages.Razor.xml
+E:\Програмування\everything\everything\bin\WebMatrix.Data.xml
+E:\Програмування\everything\everything\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Програмування\everything\everything\bin\WebMatrix.WebData.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.AspNet.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.Core.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OAuth.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OpenId.xml
+E:\Програмування\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Програмування\everything\everything\obj\Debug\everything.csprojResolveAssemblyReference.cache
+E:\Програмування\everything\everything\obj\Debug\everything.dll
+E:\Програмування\everything\everything\obj\Debug\everything.pdb
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\everything.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\everything.pdb
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Antlr3.Runtime.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.AspNet.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.Core.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OAuth.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OpenId.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\EntityFramework.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Microsoft.Web.Infrastructure.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Newtonsoft.Json.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Net.Http.Formatting.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Helpers.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Http.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Http.WebHost.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Mvc.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Optimization.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Razor.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.Deployment.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.Razor.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\WebGrease.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\WebMatrix.Data.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\WebMatrix.WebData.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\EntityFramework.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Newtonsoft.Json.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Net.Http.Formatting.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Helpers.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Http.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Http.WebHost.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Mvc.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.Razor.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.Deployment.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\System.Web.WebPages.Razor.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\WebMatrix.Data.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\WebMatrix.WebData.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.AspNet.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.Core.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OAuth.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OpenId.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\obj\Debug\everything.csprojResolveAssemblyReference.cache
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\obj\Debug\everything.dll
+D:\Study\Projects\Visual Studio 2012\Projects\iiiiiiiiiiiiiiiiiiiiiiii\everything\everything\obj\Debug\everything.pdb

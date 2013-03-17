@@ -1,0 +1,56 @@
+.button-player *{
+    font-family: Arial, sans-serif;
+}
+.button-player{
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    color: #F04E43;
+    text-transform: uppercase;
+    *border: 1px solid #eee;
+}
+.button-player a{
+    margin: 0 5px 0 0 ;
+    color: #F04E43 !important;
+    padding: 0;
+    background: none;
+}
+.button-player a:hover{
+    opacity: 0.8;
+    color: #F04E43 !important;
+    background: none;
+    padding: 0;
+}
+
+.button-player a,
+.button-player img{
+    border: 0 none;
+}
+.button-player .listen-radio{
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-player .install-radio{
+    color: #F04E43;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.button-player .install-radio:hover{
+    text-decoration: none !important;
+}
+.button-player-200{
+    width: 187px;
+    padding: 0px 0px;
+    box-shadow: inset 0px 0px 10px #b2b2b2;
+    -moz-box-shadow: inset 0px 0px 10px #b2b2b2;
+    -webkit-box-shadow: inset 0px 0px 10px #b2b2b2;
+}
+.button-player-200 a{
+    font-size: 10px !important;
+}
+
