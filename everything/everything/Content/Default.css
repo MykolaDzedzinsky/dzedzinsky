@@ -1,7 +1,7 @@
 ﻿body {
     
     background-color: white;
-    background-image: url("/Content/images/bottoom_bg.png"), url("/Content/images/top_bg.jpg");
+    background-image: url("http://rghost.ru/45360523/image.png"), url("http://rghost.ru/45360503/image.png");
     background-position: center bottom, center top;
     background-repeat: repeat-x;
     color:#3D3B3A;
@@ -66,7 +66,7 @@
 }
 
 .blocktop {
-    background: url("/Content/images/box-header.png");
+    background: url("http://rghost.ru/45360534/image.png");
     height: 42px;
 }
 
@@ -86,7 +86,7 @@
     margin: 0 auto;
     width: 98%;
     height: 48px;
-    background: url("/Content/images/nenu_top_bg.png") repeat-x scroll 0 0 #D80C16;
+    background: url("http://rghost.ru/45360571/image.png") repeat-x scroll 0 0 #D80C16;
     border:solid 0 black;
     padding-top: 0;
     padding-bottom: 0;
@@ -103,7 +103,7 @@ ul.menu {
     margin: 0 auto;
     width: 98%;
     height: 48px;
-    background: url("/Content/images/nenu_top_bg.png") repeat-x scroll 0 0 #D80C16;
+    background: url("http://rghost.ru/45360571/image.png") repeat-x scroll 0 0 #D80C16;
     border:solid 0 black;
     padding: 0;
     margin-bottom: 20px;
@@ -179,7 +179,7 @@ cssmenu ul li {
     overflow: visible;
     position: relative;
     margin: 9px 18px 5px 15px;
-    background: url("/Content/Images/settings.png");
+    background: url("http://rghost.ru/45360600/image.png");
     width: 29px;
     height: 29px;
 
