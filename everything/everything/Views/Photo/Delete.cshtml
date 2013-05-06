@@ -7,27 +7,28 @@
     <legend>Photo</legend>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Title)
+        @Html.DisplayNameFor(model => model.Title)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Title)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.ReleaseDate)
+        @Html.DisplayNameFor(model => model.ReleaseDate)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.ReleaseDate)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Link)
+        @Html.DisplayNameFor(model => model.Link)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Link)
     </div>
 </fieldset>
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     <p>
         <input type="submit" value="Delete" /> |
         @Html.ActionLink("Back to List", "Index")

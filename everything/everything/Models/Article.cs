@@ -15,7 +15,7 @@ namespace everything.Models
         public string LinkToFile { get; set; }
     }
 
-    public class ArticlesDBContext : DbContext
+    public class ArticlesDbContext : DbContext
     {
         public DbSet<Article> Articles { get; set; }
     }

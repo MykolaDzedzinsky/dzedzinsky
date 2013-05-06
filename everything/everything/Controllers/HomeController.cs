@@ -11,7 +11,7 @@ namespace everything.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = string.Format("{0}::{1}  {2}", RouteData.Values["controller"], RouteData.Values["action"],
-                                          RouteData.Values["id"]);
+                                            RouteData.Values["id"]);
             ViewBag.Title = "Головна";
             return View();
         }

@@ -10,23 +10,23 @@
     @Html.ActionLink("Додати нове фото", "Create")
 </p>
 
- <!--   <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReleaseDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Link)
-            </th>
-            <th></th>
-        </tr>
+<!--   <tr>
+           <th>
+               @Html.DisplayNameFor(model => model.Title)
+           </th>
+           <th>
+               @Html.DisplayNameFor(model => model.ReleaseDate)
+           </th>
+           <th>
+               @Html.DisplayNameFor(model => model.Link)
+           </th>
+           <th></th>
+       </tr>
     -->
-    <ul class="photogallery">
+<ul class="photogallery">
     @foreach (var item in Model)
     {
-            <li><a href="@Url.Action("Details", "Photo", new {id=item.Id})"><img src="@Html.DisplayFor(modelItem => item.PrevLink)"; alt="альтернативный текст"/></a></li>
+        <li><a href="@Url.Action("Details", "Photo", new {id = item.Id})"><img src="@Html.DisplayFor(modelItem => item.PrevLink)"; alt="альтернативный текст"/></a></li>
     }
-    </ul>
-    <!--@ViewData["MSG"]-->
+</ul>
+<!--@ViewData["MSG"]-->

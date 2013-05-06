@@ -38,16 +38,16 @@
 }*/
 
 .hor-panel {
-    position:absolute;
-    top:120px;
-    right:0;
+    position: absolute;
+    top: 120px;
+    right: 0;
     width: 300px;
     height: 130px;
     margin: 0;
-    padding:25px;
+    padding: 25px;
     background: rgba(245, 245, 245, 0.95);
-    border-radius:15px 0 0 15px;
-    overflow:hidden;
+    border-radius: 15px 0 0 15px;
+    overflow: hidden;
     
     -webkit-transition: width 1.3s ease-out;
     -moz-transition: width 1.3s ease-out;
@@ -60,39 +60,36 @@
     animation: myanim1 1s;
 }
 
-.hor-deactive
-{
+.hor-deactive {
     background-color: #54514E;
-    border-radius:15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
     width: 0;
-    padding:12px;
-    color:#54514E;
-    overflow:hidden;
+    padding: 12px;
+    color: #54514E;
+    overflow: hidden;
     -webkit-animation: myanim 1s;
     -moz-animation: myanim 1s;
     -o-animation: myanim 1s;
     animation: myanim 1s;
 }
 
-.hor-deactive h4
-{
-    color:#54514E;
-    overflow:hidden;
-    text-align:center;
+.hor-deactive h4 {
+    color: #54514E;
+    overflow: hidden;
+    text-align: center;
 }
 
-.AddMenu
-{
-    position:absolute;
-    top:206px;
-    left:167px;
+.AddMenu {
+    position: absolute;
+    top: 206px;
+    left: 167px;
     background-color: rgba(84, 81, 78, 0.7);
-    width:150px;
-    height:0;
-    border-radius:0 0 15px 15px;
-    overflow:hidden;
-    padding:0;
-    margin:0;
+    width: 150px;
+    height: 0;
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
     
     -webkit-transition: height 0.6s ease-out;
     -moz-transition: height 0.6s ease-out;
@@ -105,22 +102,20 @@
     animation: myanim1 1s;
 }
 
-    .AddMenu a li
-    {
-        list-style:none;
-        text-align:left;
-        display:blck;
-        color:#54514E;
-        font-style:normal;
-        padding:0;
-        margin:0;
-    }
+.AddMenu a li {
+    list-style: none;
+    text-align: left;
+    display: blck;
+    color: #54514E;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
 
-    .AddMenu ul
-    {
-        padding:18px;
-        margin:0;
-    }
+.AddMenu ul {
+    padding: 18px;
+    margin: 0;
+}
 
 /*.activeCssMenu
 {
@@ -137,20 +132,18 @@
     animation: myanim 1s;
 }*/
 
-.active {
-    overflow: visible;
-}
+.active { overflow: visible; }
 
-.hidden {
-    overflow: hidden;
-}
+.hidden { overflow: hidden; }
 
 @keyframes myanim {
-0% { opacity: 0;}
-100% { opacity: 1.0;}
+    0% { opacity: 0; }
+
+    100% { opacity: 1.0; }
 }
 
 @keyframes myanim1 {
-0% { opacity: 0;}
-100% { opacity: 1.0;}
+    0% { opacity: 0; }
+
+    100% { opacity: 1.0; }
 }

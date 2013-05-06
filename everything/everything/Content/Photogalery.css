@@ -1,12 +1,8 @@
-﻿ul.photogallery {
-    list-style: none;
-}
+﻿ul.photogallery { list-style: none; }
 
 ul.photogallery li {
     float: left;
     padding-right: 20px;
 }
 
-ul.photogallery li img {
-    border: solid 4px white;
-}
+ul.photogallery li img { border: solid 4px white; }

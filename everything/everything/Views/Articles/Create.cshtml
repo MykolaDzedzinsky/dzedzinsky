@@ -6,7 +6,8 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     @Html.ValidationSummary(true)
 
     <fieldset>
@@ -36,7 +37,7 @@
             @Html.ValidationMessageFor(model => model.Text)
         </div>
 
- @*       <div class="editor-label">
+        @*       <div class="editor-label">
             @Html.LabelFor(model => model.LinkToFile)
         </div>
         <div class="editor-field">

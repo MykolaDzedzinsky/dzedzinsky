@@ -5,13 +5,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>ASP.NET Web API</title>
-    <link href="/Content/Site.css" rel="stylesheet" />
-    <script src="/Scripts/jquery-1.7.1.min.js" 
-        type="text/javascript"></script>
+    <head>
+        <title>ASP.NET Web API</title>
+        <link href="/Content/Site.css" rel="stylesheet" />
+        <script src="/Scripts/jquery-1.7.1.min.js" 
+                type="text/javascript"> </script>
 
-    <script type="text/javascript">
+        <script type="text/javascript">
         //$(document).ready(function () {
         //    // Send an AJAX request
         //    $.getJSON("/api/products/",
@@ -27,115 +27,116 @@
         //            });
         //        });
         //});
-        $.getJSON('/api/products', function (data) {
-            var output = '<ul>';
-            $.each(data, function (key, val) {
-                output += '<li>' + val.Name + ': $' + val.Price + '</li>';
-            });
-            output += '</ul>';
-            $('#products').append(output);
-        })
-            
-        function find() {
-            var id = $('#prodId').val();
-            $.getJSON("/api/products/" + id,
-                function (data) {
-                    var str = data.Name + ': $' + data.Price;
-                    alert(str);
-                    $('#product').text(str);
-                })
-                .fail(
-                    function (jqXHR, textStatus, err) {
-                        $('#product').text('Error: ' + err);
-                    });
-        }
-            
-        function findByName() {
-            var pName = $('#prodName').val();
-            $.getJSON("/api/products/?Name=" + pName,
-                function(data) {
-                    var str1 = data.Name + ': $' + data.Price;
-                    $('#Nproduct').text(str1);
-                })
-                .fail(function(jqXHR, textStatus, err) {
-                    $('#Nproduct').text('Error: ' + err);
+            $.getJSON('/api/products', function(data) {
+                var output = '<ul>';
+                $.each(data, function(key, val) {
+                    output += '<li>' + val.Name + ': $' + val.Price + '</li>';
                 });
-        }
+                output += '</ul>';
+                $('#products').append(output);
+            })
+
+            function find() {
+                var id = $('#prodId').val();
+                $.getJSON("/api/products/" + id,
+                    function(data) {
+                        var str = data.Name + ': $' + data.Price;
+                        alert(str);
+                        $('#product').text(str);
+                    })
+                    .fail(
+                        function(jqXHR, textStatus, err) {
+                            $('#product').text('Error: ' + err);
+                        });
+            }
+
+            function findByName() {
+                var pName = $('#prodName').val();
+                $.getJSON("/api/products/?Name=" + pName,
+                    function(data) {
+                        var str1 = data.Name + ': $' + data.Price;
+                        $('#Nproduct').text(str1);
+                    })
+                    .fail(function(jqXHR, textStatus, err) {
+                        $('#Nproduct').text('Error: ' + err);
+                    });
+            }
         </script>
     
-</head>
-<body id="body" >
-    <div class="main-content">
-        <div>
-            <h1>All Products</h1>
-            <ul id="products"/>
-        </div>
-        <div>
-            <label for="prodId">ID:</label>
-            <input type="text" id="prodId" size="5"/>
-            <input type="button" value="Search" onclick="find();" />
-            <p id="product" />
-        </div>
-        <div>
-            <label for="prodName">Name:</label>
-            <input type="text" id="prodName" size="5"/>
-            <input type="button" value="Search" onclick="findByName();" />
-            <p id="Nproduct" />
-        </div>
-        <div>
-            <label for="productCategory">Категорія:</label>
-            <!--<input type="text" id="productCategory" size="5"/>-->
-            <select id="productCategory" size="1">
-                <option>Toys</option>
-                <option>Hardware</option>
-                <option>Groceries</option>
-                <option>Smartphones</option>
-            </select>
-            <button id="findByCategoryButton">Фільтр</button>
-            <div id="CatProduct"></div>
+    </head>
+    <body id="body" >
+        <div class="main-content">
+            <div>
+                <h1>All Products</h1>
+                <ul id="products"/>
+            </div>
+            <div>
+                <label for="prodId">ID:</label>
+                <input type="text" id="prodId" size="5"/>
+                <input type="button" value="Search" onclick=" find(); " />
+                <p id="product" />
+            </div>
+            <div>
+                <label for="prodName">Name:</label>
+                <input type="text" id="prodName" size="5"/>
+                <input type="button" value="Search" onclick=" findByName(); " />
+                <p id="Nproduct" />
+            </div>
+            <div>
+                <label for="productCategory">Категорія:</label>
+                <!--<input type="text" id="productCategory" size="5"/>-->
+                <select id="productCategory" size="1">
+                    <option>Toys</option>
+                    <option>Hardware</option>
+                    <option>Groceries</option>
+                    <option>Smartphones</option>
+                </select>
+                <button id="findByCategoryButton">Фільтр</button>
+                <div id="CatProduct"></div>
+            </div>
+
+            <table style="width: 20%; border: solid; border-width: 15px; border-bottom-color: red; border-top-color: green; border-left-color: blue;">
+                <tr style="border: solid; border-color: black;">
+                    <td style="width: 5px;" >1</td>
+                    <td>Траляля</td>
+                    <td>Траляля</td>
+                </tr>
+                <tr style="border: solid; border-color: black;">
+                    <td>2</td>
+                    <td>Траляля</td>
+                    <td>Траляля</td>
+                </tr>
+                <tr style="border: solid; border-color: black;">
+                    <td>3</td>
+                    <td>Траляля</td>
+                    <td>Ахахах</td>
+                </tr>
+            </table>
+            <div class="update"><h1>List of products on JQuery</h1></div>
         </div>
 
-        <table style="width: 20%; border: solid; border-width: 15px; border-bottom-color: red; border-top-color: green; border-left-color: blue;">
-            <tr style="border: solid; border-color: black;">
-                <td style="width: 5px;" >1</td>
-                <td>Траляля</td>
-                <td>Траляля</td>
-            </tr>
-            <tr style="border: solid; border-color: black;">
-                <td>2</td>
-                <td>Траляля</td>
-                <td>Траляля</td>
-            </tr>
-            <tr style="border: solid; border-color: black;">
-                <td>3</td>
-                <td>Траляля</td>
-                <td>Ахахах</td>
-            </tr>
-        </table>
-        <div class="update"><h1>List of products on JQuery</h1></div>
-    </div>
+        <script>
+            var myButton = document.getElementById('findByCategoryButton');
+            myButton.onclick = findByCategory;
 
-    <script>
-        var myButton = document.getElementById('findByCategoryButton');
-        myButton.onclick = findByCategory;
-        function findByCategory() {
-            var output = '<ul>';
-            var Category = $('#productCategory').val();
-            $.getJSON("/api/products/?Category=" + Category,
-                function (data) {
-                    $('#CatProduct').text(output);
-                    $.each(data, function(key, val) {
-                        var str = val.Name + ': $' + val.Price;
-                        output += '<li>' + str + '</li>';
+            function findByCategory() {
+                var output = '<ul>';
+                var Category = $('#productCategory').val();
+                $.getJSON("/api/products/?Category=" + Category,
+                    function(data) {
+                        $('#CatProduct').text(output);
+                        $.each(data, function(key, val) {
+                            var str = val.Name + ': $' + val.Price;
+                            output += '<li>' + str + '</li>';
+                        });
+                        $('#CatProduct').html(output + '</ul>');
                     });
-                    $('#CatProduct').html(output + '</ul>');
-                });
-        }
-    </script>
+            }
+        </script>
     
-    <script src="/Scripts/jquery-1.9.1.js"></script>
-    <script src="/Content/AJAX.js"></script>
+        <script src="/Scripts/jquery-1.9.1.js"> </script>
+        <script src="/Content/AJAX.js"> </script>
     
-    <footer></footer>
-</body>
+        <footer></footer>
+    </body>
 </html>

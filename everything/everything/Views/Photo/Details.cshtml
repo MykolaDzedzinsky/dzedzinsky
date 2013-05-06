@@ -6,29 +6,28 @@
     <legend>Photo</legend>
 
     <div class="display-label">
-         Ім'я фотографії
+        Ім'я фотографії
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Title)
     </div>
 
     <div class="display-label">
-         Дата
+        Дата
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.ReleaseDate)
     </div>
 
     <div class="display-label">
-         Посилання<!--@Html.DisplayNameFor(model => model.Link)-->
+        Посилання<!--@Html.DisplayNameFor(model => model.Link)-->
     </div>
     <div class="display-field">
         <a href="@Html.DisplayFor(model => model.Link)">Переглянути фото</a>
     </div>
 </fieldset>
 <p>
-    @Html.ActionLink("Редагувати", "Edit", new { id=Model.Id }) |
-    @Html.ActionLink("Видалити", "Delete", new { id=Model.Id })|
+    @Html.ActionLink("Редагувати", "Edit", new {id = Model.Id}) |
+    @Html.ActionLink("Видалити", "Delete", new {id = Model.Id})|
     @Html.ActionLink("Назад", "Index")
 </p>
-

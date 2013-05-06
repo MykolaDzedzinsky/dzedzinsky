@@ -7,7 +7,7 @@ namespace everything.Controllers
 {
     public class MovieController : Controller
     {
-        private MovieDBContext db = new MovieDBContext();
+        private MovieDbContext db = new MovieDbContext();
 
         //
         // GET: /Movie/

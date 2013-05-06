@@ -71,9 +71,8 @@ namespace everything.Models
         {
             double width = img.Width;
             double height = img.Height;
-            double res = (width) / (height);
+            double res = (width)/(height);
             return res;
-
         }
 
         /*public Image ScaleImage(Image image, int maxHeight)
@@ -111,7 +110,10 @@ namespace everything.Models
 
         public string GetLast(string s, int tailLength)
         {
-            if (tailLength >= s.Length) { return s; }
+            if (tailLength >= s.Length)
+            {
+                return s;
+            }
             string sub = s.Substring(s.Length - tailLength);
             return sub;
         }

@@ -16,7 +16,7 @@ namespace everything.Models
         public string About { get; set; }
     }
 
-    public class ProductsDBContext : DbContext
+    public class ProductsDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
     }

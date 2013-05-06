@@ -11,41 +11,42 @@
     <legend>Product</legend>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Name)
+        @Html.DisplayNameFor(model => model.Name)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Name)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.ShortName)
+        @Html.DisplayNameFor(model => model.ShortName)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.ShortName)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Category)
+        @Html.DisplayNameFor(model => model.Category)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Category)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Price)
+        @Html.DisplayNameFor(model => model.Price)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.Price)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.About)
+        @Html.DisplayNameFor(model => model.About)
     </div>
     <div class="display-field">
         @Html.DisplayFor(model => model.About)
     </div>
 </fieldset>
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     <p>
         <input type="submit" value="Delete" /> |
         @Html.ActionLink("Back to List", "Index")

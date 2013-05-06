@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using everything.Models;
 
@@ -11,7 +7,7 @@ namespace everything.Controllers
 {
     public class SearchController : Controller
     {
-        private ProductsDBContext db = new ProductsDBContext();
+        private ProductsDbContext db = new ProductsDbContext();
 
         //
         // GET: /Search/

@@ -1,37 +1,128 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<script type="text/javascript">
+    var andriy = new Person;
+    andriy.Name = "Андрій";
+    andriy.Health = "92%";
+    andriy.IQ = 129;
+    andriy.save();
+    //alert(andriy.Name);
+</script>
+
 @section Announcement
 {
     <link href="/Content/Announcement.css" rel="stylesheet" type="text/css">
     <div class="pane">
-    <h4>Свято мужиків</h4>
-    <p>Дорогие мужчины, поздравляем вас с мужским праздником, с Днем защитника Отечества! Желаем вам надежного тыла и мирного неба над головой. И чтобы Родина не краснела за вас, а вы за Родину!</p>
-    <img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
-</div>
+        <h4>Свято мужиків</h4>
+        <p>Дорогие мужчины, поздравляем вас с мужским праздником, с Днем защитника Отечества! Желаем вам надежного тыла и мирного неба над головой. И чтобы Родина не краснела за вас, а вы за Родину!</p>
+        <img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
+    </div>
 
-<div class="pane">
-    <h4>Введение в С#</h4>
-    <p>C# (произносится Си-Шарп) - это новый язык программирования от компании Microsoft. Он входит в новую версию Visual Studio - Visual Studio.NET. Кроме C# в Visual Studio.NET входят Visual Basic.NET и Visual C++. </p>
-    <img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
-</div>
+    <div class="pane">
+        <h4>Введение в С#</h4>
+        <p>C# (произносится Си-Шарп) - это новый язык программирования от компании Microsoft. Он входит в новую версию Visual Studio - Visual Studio.NET. Кроме C# в Visual Studio.NET входят Visual Basic.NET и Visual C++. </p>
+        <img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
+    </div>
 
-<div class="pane">
-<h4>News</h4>
-<p>Азаров: На строительстве дорог украли всего 5 копеек</p>
-<img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
-</div>
+    <div class="pane">
+        <h4>News</h4>
+        <p>Азаров: На строительстве дорог украли всего 5 копеек</p>
+        <img class="delete" alt="delete" src="https://github.com/MykolaDzedzinsky/dzedzinsky/blob/master/everything/everything/Images/close.png?raw=true">
+    </div>
 
     <div class="hor-panel hor-deactive">
-    <h4>hi from slider</h4>
-    Horisontal slider has been created!!! Horisontal slider has been created... Horisontal slider has been created.
-</div>
+        <h4>hi from slider</h4>
+        Horisontal slider has been created!!! Horisontal slider has been created... Horisontal slider has been created.
+    </div>
     <script>
-        $(".hor-panel").click(function () {
+        $(".hor-panel").click(function() {
             //$(".hor-panel").slideToggle("slow");
             $(".hor-panel").toggleClass("hor-deactive");
         });
-</script>
+    </script>
+    <script type="text/javascript">
+        var Class = function () {
+            var klass = function () {
+                this.init.apply(this, arguments);
+            };
+            //Змінення прототипу для klass
+            if (parent) {
+                var subclass = function () { };
+                subclass.prototype = parent.prototype;
+                klass.prototype = new subclass;
+            }
+
+            klass.prototype.init = function () { };
+
+            //скорочена форма запису для доступу до прототипу
+            klass.fn = klass.prototype;
+            //інша форма запису для доступу до класу
+            klass.fn.parent = klass;
+            klass._super = klass.__proto__;
+            //додавання власивостей класу
+            klass.extend = function (obj) {
+                var extended = obj.extended;
+                for (var i in obj) {
+                    klass[i] = obj[i];
+                }
+                if (extended) extended(klass);
+            };
+            //додавання власивостей екземпляра
+            klass.include = function (obj) {
+                var included = obj.included;
+                for (var i in obj) {
+                    klass.fn[i] = obj[i];
+                }
+                if (included) included(klass);
+            };
+            return klass;
+        };
+        var Person = new Class;
+        Person.extend({
+            find: function (id) { /* ... */ },
+            exists: function (id) { /* ... */ }
+        });
+        var person = Person.find(1);
+
+        var Person = new Class;
+        Person.include({
+            save:  function(id) { /* ... */ },
+            destroy: function(id) { /* ... */ }
+        });
+        var person = new Person; 
+        person.save();
+        
+        Person.extend({
+            extended: function(klass){
+                console.log(klass, "був розширений!");
+            }
+        });
+
+        var andrew = new Person;
+        andrew.CountOfLegs = 2;
+        console.log("Andrew have ", andrew.CountOfLegs, " legs!", andrew);
+
+        var Animal = new Class;
+        Animal.include({
+            breath: function () {
+                console.log('дихає');
+            }
+        });
+        Animal.include({
+            eat: function () {
+                console.log('різне');
+            }
+        });
+
+        var Cat = new Class(Animal);
+
+        //Використання
+        var murka = new Cat;
+
+        
+
+    </script>
 }
 @*@section featured {
     <section class="featured">
@@ -50,7 +141,7 @@
         </div>
     </section>
 }*@
-<h3>We suggest the following:</h3>
+@*<h3>We suggest the following:</h3>
 <ol class="round">
     <li class="one">
         <h5>Getting Started</h5>
@@ -74,4 +165,48 @@
         and price for your applications.
         <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
     </li>
-</ol>
+</ol>*@
+
+@*<style type="text/css">
+    div {
+display: block;
+}
+    .pics img {
+height: 200px;
+width: 200px;
+padding: 15px;
+border: 1px solid #ccc;
+background-color: #eee;
+top: 0;
+left: 0;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+    .pics {
+height: 232px;
+width: 232px;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+</style>
+<script src="/Scripts/jquery.easing.compatibility.js"></script>
+<script src="/Scripts/jquery.easing.min.js"></script>
+<div class="example">
+    <div id="right" class="pics" style="position: relative; overflow: hidden;">
+            <img src="http://cloud.github.com/downloads/malsup/cycle/beach1.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 4; opacity: 1; width: 200px; height: 200px;">
+            <img src="http://cloud.github.com/downloads/malsup/cycle/beach2.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 232px; display: none; z-index: 3; opacity: 1; width: 200px; height: 200px;">
+            <img src="http://cloud.github.com/downloads/malsup/cycle/beach3.jpg" width="200" height="200" style="position: absolute; top: 0px; left: 232px; display: none; z-index: 3; opacity: 1; width: 200px; height: 200px;">
+        </div>
+ </div>
+</div>
+<script type="text/javascript">
+    $('#fade').cycle({
+        fx: 'scrollRight',
+        next: '#right',
+        timeout: 0,
+        easing: 'easeInOutBack'
+    });
+</script>*@
+
+

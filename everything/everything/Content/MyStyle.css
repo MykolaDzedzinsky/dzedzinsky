@@ -1,11 +1,9 @@
-﻿body {
-    /*background: #DAD7C7;*/
-}
+﻿body { /*background: #DAD7C7;*/ }
 
 #searcharea {
     margin: 0 auto;
     text-align: center;
-    background:  #eee;
+    background: #eee;
     padding: 0;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -15,15 +13,14 @@
     -moz-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
 
-background: #e4efc0; /* Old browsers */
-background: -moz-linear-gradient(top,  #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,#e4efc0), color-stop(100%,#abbd73), color-stop(100%,#abbd73)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #e4efc0 6%,#abbd73 100%,#abbd73 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #e4efc0 6%,#abbd73 100%,#abbd73 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #e4efc0 6%,#abbd73 100%,#abbd73 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #e4efc0 6%,#abbd73 100%,#abbd73 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=0 ); /* IE6-9 */
-
+    background: #e4efc0; /* Old browsers */
+    background: -moz-linear-gradient(top, #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #e4efc0), color-stop(100%, #abbd73), color-stop(100%, #abbd73)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e4efc0 6%, #abbd73 100%, #abbd73 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4efc0', endColorstr='#abbd73', GradientType=0); /* IE6-9 */
 }
 
 #searcharea label {
@@ -114,6 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', end
 }
 
 @keyframes myanim {
-0% { opacity: 0.3;}
-100% { opacity: 1.0;}
+    0% { opacity: 0.3; }
+
+    100% { opacity: 1.0; }
 }

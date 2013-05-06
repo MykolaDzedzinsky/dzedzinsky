@@ -67,11 +67,13 @@ namespace everything.Controllers
                 photo.Link = partUrl + photo.DownloadImageFromClient(fileUpload, photo);
             }
             Image img1 = Image.FromFile(solDir + photo.Title);
-            double ratio = photo.GetImgAspectRatio(img1) * 100;
+            double ratio = photo.GetImgAspectRatio(img1)*100;
             Image img2 = img1.GetThumbnailImage(Convert.ToInt32(ratio), 100, null, IntPtr.Zero);
-            img1.Dispose(); img1 = null;
+            img1.Dispose();
+            img1 = null;
             string tmp = photo.SavePoster(img2, photo);
-            img2.Dispose(); img2 = null;
+            img2.Dispose();
+            img2 = null;
             photo.PrevLink = partUrl + "/Preview/" + photo.Title;
             if (ModelState.IsValid)
             {

@@ -15,6 +15,5 @@ namespace everything.Controllers
         {
             return View();
         }
-
     }
 }

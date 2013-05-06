@@ -2,7 +2,7 @@
 
 <h2>@ViewBag.Title</h2>
 
-@using (Html.BeginForm("Create", "Photo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("Create", "Photo", FormMethod.Post, new {enctype = "multipart/form-data"}))
 {
     @Html.ValidationSummary(true)
 
@@ -18,12 +18,12 @@
         </div>
 
         <!--<div class="editor-label">
-            Дата:
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.ReleaseDate)
-            @Html.ValidationMessageFor(model => model.ReleaseDate)
-        </div>-->
+                Дата:
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.ReleaseDate)
+                @Html.ValidationMessageFor(model => model.ReleaseDate)
+            </div>-->
 
         <div class="editor-label">
             URL:
@@ -33,10 +33,10 @@
             @Html.ValidationMessageFor(model => model.Link)
         </div>
         <!---->
-    <div class="editor-label">
-        З комп'ютера:<br /></div>
+        <div class="editor-label">
+            З комп'ютера:<br /></div>
         <div class="editor-field">
-        <input type="file" name="fileUpload" /><br /></div>
+            <input type="file" name="fileUpload" /><br /></div>
         <!---->
         <p>
             <!--<input type="submit" value="Завантажити" />-->

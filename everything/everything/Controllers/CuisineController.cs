@@ -23,6 +23,5 @@ namespace everything.Controllers
             name = Server.HtmlEncode(name);
             return Content(name);
         }
-
     }
 }

@@ -11,7 +11,7 @@ namespace everything.Controllers
 {
     public class ArticlesController : Controller
     {
-        private ArticlesDBContext db = new ArticlesDBContext();
+        private ArticlesDbContext db = new ArticlesDbContext();
 
         //
         // GET: /Articles/

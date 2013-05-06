@@ -14,7 +14,7 @@ namespace everything.Controllers
 {
     public class ProductsController : ApiController
     {
-        private ProductsDBContext db = new ProductsDBContext();
+        private ProductsDbContext db = new ProductsDbContext();
 
         // GET api/Products
         public IEnumerable<Product> GetProducts()
@@ -48,7 +48,7 @@ namespace everything.Controllers
         {
             return GetProducts().Where(
                 p => string.Equals(p.Category, category,
-                    StringComparison.OrdinalIgnoreCase));
+                                   StringComparison.OrdinalIgnoreCase));
         }
 
         // PUT api/Products/5
@@ -81,7 +81,7 @@ namespace everything.Controllers
                 db.SaveChanges();
 
                 HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, product);
-                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = product.Id }));
+                response.Headers.Location = new Uri(Url.Link("DefaultApi", new {id = product.Id}));
                 return response;
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest);
